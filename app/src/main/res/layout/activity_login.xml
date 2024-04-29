@@ -41,7 +41,7 @@
         android:inputType="textWebPassword"
         android:hint="@string/password"
         android:drawableStart="@drawable/password"
-        android:drawablePadding="9dp"
+        android:drawablePadding="10dp"
         >
     </EditText>
 
