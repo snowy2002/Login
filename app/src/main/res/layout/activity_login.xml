@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <ImageView
+        android:id="@+id/user"
+        android:layout_width="30dp"
+        android:layout_height="50dp"
+        android:src="@drawable/user"
+        android:layout_marginTop="200dp"
+        android:layout_centerHorizontal="true"
+        >
+    </ImageView>
+
+    <EditText
+        android:id="@+id/userName"
+        android:layout_below="@+id/user"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:hint="@string/user_Name"
+        android:drawableStart="@drawable/username"
+        android:drawablePadding="10dp"
+        >
+    </EditText>
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_below="@+id/userName"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:inputType="textWebPassword"
+        android:hint="@string/password"
+        android:drawableStart="@drawable/password"
+        android:drawablePadding="10dp"
+        >
+    </EditText>
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_below="@+id/password"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="@string/login"
+        >
+
+    </Button>
+</RelativeLayout>
